@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Lato__Black;
+    src: url('../Fonts/Lato/Lato-Black.ttf');
+}
+
+@font-face {
+    font-family: Lato__Regular;
+    src: url('../Fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: Lato__Bold;
+    src: url('../Fonts/Lato/Lato-Bold.ttf');
+}
+
+.banner {
+    background-image: url('../Assets/lead generation v2 bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 3rem;
+    background-position: center;
+    width: 100%;
+
+}
+
+
+.text {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.ribbons {
+    background-image: url('../Assets/Vector Smart Object (3).png');
+    padding: 90px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 50%;
+    background-position: center;
+}
+
+.ribbons p {
+    margin-bottom: 0;
+    font-size: calc(16pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+    color: #181a25;
+    font-weight: 700;
+    font-family: 'Lato__Bold';
+}
+
+.text h2 {
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Lato__Black';
+    font-size: calc(26pt + 0.15vw);
+    letter-spacing: 0.04em;
+    line-height: 1.2195;
+}
+
+.lefts {
+    max-width: 50%;
+    margin-top: 4rem;
+    padding: 0px 30px;
+}
+
+.lefts p {
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Lato__Bold';
+    font-size: calc(15pt + 0.15vw);
+    letter-spacing: 0.04em;
+    line-height: 1.2195;
+}
+
+
+
+.leftss {
+    max-width: 50%;
+    margin-top: 3rem;
+    padding: 0px 30px;
+}
+
+.leftss p {
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Lato__Bold';
+    font-size: calc(15pt + 0.15vw);
+    letter-spacing: 0.04em;
+    line-height: 1.2195;
+}
+
+.org-sms {
+    max-width: 48%;
+    padding: 0px 0px 0px 30px;
+    margin-top: 7rem;
+}
+
+.org-sms h4 {
+    margin-bottom: 0;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Lato__Bold';
+    font-size: calc(14pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+}
+
+.listing {
+    background-image: url('../Assets/Vector Smart Object copy2.png');
+    padding: 70px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 50%;
+    background-position: center;
+}
+
+.listing ul li {
+    list-style-image: url('../Assets/right-arrow 2.png');
+    padding: 10px 0px;
+
+}
+
+.listing p {
+    margin-bottom: 0;
+    -webkit-transform: translate(13px, -10px);
+    -ms-transform: translate(13px, -10px);
+    transform: translate(13px, -10px);
+    font-family: 'Lato__Bold';
+    font-size: calc(12pt + 0.15vw);
+    letter-spacing: 0.04em;
+    color: #000000;
+    font-weight: 700;
+}
+
+
+
+.listing dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.listing ol, ul {
+    padding-left: 3rem;
+}
+
+
+
+.test {
+    text-align: center;
+    max-width: 70%;
+    padding: 0px 0px 0px 30px;
+}
+
+
+
+.part {
+    max-width: 50%;
+    padding: 0px 0px 0px 30px;
+}
+
+
+.part h3 {
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Lato__Black';
+    font-size: calc(14pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+    margin-bottom: 0;
+}
+
+.part p {
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Lato__Black';
+    font-size: calc(12pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+    margin-bottom: 0;
+}
+
+.user {
+    max-width: 50%;
+}
+
+.search {
+    position: relative;
+    width: 100%;
+}
+
+.search input {
+    padding: 12px 25px;
+    border-radius: 6px;
+    -webkit-filter: drop-shadow(-2.93px 8.51px 11px rgba(0, 0, 0, 0.13));
+    filter: drop-shadow(-2.93px 8.51px 11px rgba(0, 0, 0, 0.13));
+    border: 2px dashed #fff50c;
+    background-color: #ffffff;
+    font-size: calc(11pt + 0.15vw);
+    letter-spacing: 0.03em;
+    font-weight: 900;
+    font-family: 'Lato__Black';
+    color: #acacac;
+}
+
+.search input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid orange;
+}
+
+.search .fa-user {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #acacac;
+    font-size: 25px;
+}
+
+.search .fa-envelope {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #acacac;
+    font-size: 25px;
+}
+
+.button-fds a {
+    text-decoration: none;
+}
+
+
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #000c53 !important;
+    border-color: #000c53 !important;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: 900;
+    font-family: 'Lato__Black';
+    font-size: calc(12pt + 0.15vw);
+    letter-spacing: 0.03em;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-filter: drop-shadow(-2.93px 8.51px 11px rgba(0, 0, 0, 0.13));
+    filter: drop-shadow(-2.93px 8.51px 11px rgba(0, 0, 0, 0.13));
+    border: 3px solid transparent;
+}
+
+
+.btn-primary:hover {
+    background-color: transparent !important;
+    border-color: #000c53 !important;
+    color: #000c53;
+    border: 3px dashed;
+}
+
+
+
+
+
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+
+@media screen and (max-width: 1399.98px) {
+    .ribbons {
+        padding: 50px 30px;
+    }
+}
+
+
+@media screen and (max-width: 1199.98px) {
+    .banner {
+        background-position: 62%;
+    }
+
+    .text {
+        max-width: 85%;
+    }
+
+    .listing {
+        max-width: 70%;
+    }
+
+    .ribbons {
+        max-width: 60%;
+    }
+
+    .text h2 br {
+        display: none;
+    }
+
+    .user {
+        max-width: 60%;
+    }
+
+    .org-sms {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .lefts p br {
+        display: none;
+    }
+
+    .text h2 br {
+        display: none;
+    }
+
+    .leftss p br {
+        display: none;
+    }
+
+    .ribbons p br {
+        display: none;
+    }
+
+    .ribbons {
+        padding: 20px 30px;
+    }
+
+    .lefts {
+        max-width: 52%;
+        padding: 0px 10px;
+    }
+
+    .leftss {
+        padding: 0px 10px;
+    }
+
+    .org-sms h4 br {
+        display: none;
+    }
+
+    .part h3 br {
+        display: none;
+    }
+
+
+
+
+    .org-sms {
+        padding: 0px 10px;
+        max-width: 70%;
+    }
+
+    .part {
+        max-width: 70%;
+    }
+
+    .part h3 {
+        font-size: calc(16pt + 0.15vw);
+    }
+
+    .test {
+        max-width: 90%;
+    }
+
+
+    .text h2 {
+        font-size: calc(22pt + 0.15vw);
+    }
+
+    .listing {
+        padding: 40px 30px;
+    }
+
+
+
+
+    .btn-primary {
+        width: auto;
+    }
+
+    .btn-primary {
+        padding: 10px 10px;
+        font-size: calc(10pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+
+    .text h2 {
+        font-size: calc(20pt + 0.15vw);
+    }
+
+
+    .user {
+        max-width: 80%;
+        margin: auto;
+    }
+
+
+
+
+
+    .org-sms h4 {
+        font-size: calc(14pt + 0.15vw);
+    }
+
+    .lefts p {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .leftss p {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+
+
+
+    .part h3 {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .ribbons {
+        padding: 50px 30px;
+        max-width: 90%;
+    }
+
+    .listing {
+        padding: 46px 30px;
+        max-width: 95%;
+    }
+
+    .part {
+        padding: 0px 10px;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 538px) {
+
+    .text {
+        max-width: 90%;
+    }
+
+    .part {
+        max-width: 80%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .org-sms h4 {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .lefts {
+        max-width: 80%;
+    }
+
+    .leftss {
+        max-width: 80%;
+    }
+
+    .user {
+        max-width: 90%;
+    }
+
+
+
+
+    .org-sms {
+        padding: 0;
+        margin: auto;
+        max-width: 80%;
+    }
+
+
+    .listing ul li {
+        padding: 2px;
+    }
+
+
+    .listing p {
+        font-size: calc(10pt + 0.15vw);
+    }
+
+    .ribbons p {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .search input {
+        padding: 12px 10px;
+        text-indent: 10px;
+        font-size: calc(10pt + 0.15vw);
+    }
+
+    .text h2 {
+        font-size: calc(17pt + 0.15vw);
+    }
+}
